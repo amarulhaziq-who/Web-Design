@@ -8,7 +8,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body{
+.body{
     background-color: rgb(123, 123, 17);
     color: rgb(40, 40, 2);
     line-height: 1.6;
@@ -20,7 +20,7 @@ body{
 }
 
 
-hr{
+.hr{
     border: 0;
     height: 1px;
     background: local;
@@ -95,4 +95,17 @@ hr{
     gap: 25px;
     padding: 10px 0;
 }
+/*=====================================
+5.FOOTER LINKS
+======================================*/
 
+.h2[align='center'] a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+.h2[align='center'] a:hover {
+    color: antiquewhite;
+}
