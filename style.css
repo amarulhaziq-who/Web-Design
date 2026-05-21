@@ -1,0 +1,98 @@
+/*==================================
+1.RESET & GENERAL STYLES
+===================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(123, 123, 17);
+    color: rgb(40, 40, 2);
+    line-height: 1.6;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+hr{
+    border: 0;
+    height: 1px;
+    background: local;
+    margin: 20px 0;
+    
+}
+
+
+/*====================================
+2.HEADER & NAVIGATION BAR
+=====================================*/
+.header {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(211, 205, 120);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #43535a;
+    font-weight: 600;
+    font-size: 2.1rem;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: rgb(192, 143, 70);
+}
+
+/*=======================================
+3.SEARCH BAR
+========================================*/
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    
+}
+.search-bar{
+    width: 100%;
+    max-width: 500%;
+    padding: 12px 20px;
+    border: 2px solid;
+    font-size: 1rem;
+    outline: none;
+}
+.search-bar:focus{
+    border-color: rgb(10, 10, 10);
+}
+
+/*========================================
+4.PRODUCT GRID & CARDS (index.html & order.html
+==========================================*/
+.main-content h2, .main-content h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 10px 0;
+}
+
