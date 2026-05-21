@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+<body>
+     <div class="container">
+        <h2 align="center"></h2>
+
+        <div center class="header">Online Shoping System</div>
+        <hr>
+        <div class="navbar">
+            <h2 align="center"><a href="index.html">Home</a>
+            <a href="order.html">Menu</a>
+            <a href="login.html">Cart</a>
+        <div id="cart" class="page">
+            <div class="main-content">
+                <hr>
+                <h4>Customer Details</h2>
+                <div class="form-group"><label>Name : </label><input type="text"></div>
+                <div class="form-group"><label>Phone : </label><input type="text"></div>
+                <div class="form-group"><label>Address : </label><input type="text"></div>
+                <hr>
+
+                <h4>Order List</h4>
+                <div id="cart-list"></div>
+                <p style="text-align: right; font-weight: bold;">Total Price : RM <span id="total">0.00</span></p>
+                <center><button class="btn" onclick="cornfirm()">Confirm Order </button></center>
+            </div>
+            </div>
+        </div>
+        <hr>
+        </div>
+        
+         <h2 align="center">
+         <a onclick="go('home')">Phone</a> | <a onclick="go('order')">Email</a> | <a onclick="alert('Login')">Location</a>
+ 
+    
+</body>
+</html>
